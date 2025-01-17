@@ -1,0 +1,26 @@
+[init]
+        defaultBranch = main
+
+[alias]
+	st = status
+	cim = commit
+	lg = log --graph --oneline --decorate
+	co = checkout
+	cims = commit -S -m
+	bl = branch --list
+	cob = checkout -b
+	bd = branch -D
+	bm = branch -m
+	sc = switch -c
+	sw = switch
+[core]
+	editor = vim
+	autocrlf = input
+	excludesfile = ~/.gitignore_global
+[pull]
+	rebase = true
+[merge]
+    	ff = no
+[user]
+	email = t.erdle@computer-technik-krause.de
+	name = Tobias Erdle

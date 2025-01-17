@@ -1,0 +1,14 @@
+# ~/.XCompose
+ # This file defines custom Compose sequences for Unicode characters
+
+# Import default rules from the system Compose file:
+ include "/usr/share/X11/locale/en_US.UTF-8/Compose"
+
+# To put some stuff onto compose key strokes:
+ <Multi_key> <Multi_key> <apostrophe> : "ä"
+ <Multi_key> <Multi_key> <bracketleft> : "ü"
+ <Multi_key> <Multi_key> <semicolon> : "ö"
+ <Multi_key> <Multi_key> <quotedbl> : "Ä"
+ <Multi_key> <Multi_key> <colon> : "Ö"
+ <Multi_key> <Multi_key> <braceleft> : "Ü"
+ 

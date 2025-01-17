@@ -1,0 +1,25 @@
+# IntelliJ
+.idea/
+*.iml
+*.iws
+
+# VS Code
+.vscode/*
+*.code-workspace
+
+# Eclipse
+.classpath
+.settings/
+.project
+
+# Maven
+target/
+
+# Gradle
+build/
+
+# OSX
+.DS_Store
+
+# NodeJS
+node_modules/
